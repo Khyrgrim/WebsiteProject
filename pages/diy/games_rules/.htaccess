@@ -1,0 +1,4 @@
+PerlSetVar AuthFile pages/gamesrules/.htpasswd
+AuthName "Page d'administration protégée"
+AuthType Basic
+Require valid-user

@@ -1,0 +1,5 @@
+PerlSetVar AuthFile discussion/CBP/.htpasswd
+AuthName "Page d'administration protégée"
+AuthType Basic
+Require valid-user
+php56 1
